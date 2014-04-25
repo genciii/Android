@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="@drawable/seffaf"
+  >
+    	<include layout="@layout/actionbar_layout"/>
+     <Button android:id="@+id/btu1" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:layout_marginRight="10px"
+            android:text="Bilgisayar Muhendisligi 1.Sinif Bahar Donemi Ders Programi"
+            android:layout_marginTop="15px" 
+             />
+      <Button android:id="@+id/btu2" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:layout_marginRight="10px"
+            android:text="Bilgisayar Muhendisligi 2.Sinif Bahar Donemi Ders Programi"
+           android:layout_marginTop="30px"  />
+       <Button android:id="@+id/btu3" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:layout_marginRight="10px"
+            android:text="Bilgisayar Muhendisligi 3.Sinif Bahar Donemi Ders Programi"
+             android:layout_marginTop="30px" 
+             />
+         <Button android:id="@+id/btu4" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:layout_marginRight="10px"
+            android:text="Bilgisayar Muhendisligi 4.Sinif Bahar Donemi Ders Programi"
+             android:layout_marginTop="30px" 
+             />
+     
+     </LinearLayout>

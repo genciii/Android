@@ -1,0 +1,51 @@
+<iticu.andro.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:background="@drawable/seffaf" >
+   
+	 <Button
+        android:id="@+id/btn_fakulte"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/facultybutton"
+        android:text="Fakulteler" />
+    
+	<!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_myo"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/myo"
+        android:text="Meslek Yuksek Okulu" />
+    
+	<!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_entitu"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/inst"
+        android:text="Enstituler" />
+	
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_hazirlik"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/hazirlik"
+        android:text="Hazirlik" />
+    
+    <Button
+        android:id="@+id/btn_akademiktak"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/calendar"
+        android:text="Akademik Takvim" />
+    
+    <Button
+        android:id="@+id/btn_dersprog"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/timetables"
+        android:text="Ders Programlari" />
+
+ 
+
+      
+
+</iticu.andro.DashboardLayout>

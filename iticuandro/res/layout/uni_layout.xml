@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f8f9fe"
+    android:orientation="vertical" >
+
+    
+
+    <include layout="@layout/actionbar_layout" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="15dip"
+            android:text="@string/hakkimizda"
+            android:textColor="#000000"
+            android:textSize="12dip"
+            android:textStyle="normal"  />
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

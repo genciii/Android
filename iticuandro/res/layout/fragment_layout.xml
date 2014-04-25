@@ -1,0 +1,38 @@
+<iticu.andro.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/seffaf" >
+   
+	<!--  News Feed Button -->
+    <Button
+          android:id="@+id/btn_uni"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/uni"   
+        android:text="Universitemiz" />
+    
+	<!--  Friends Button -->
+    <Button
+       android:id="@+id/btn_akademik"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/akademik"
+        android:text="Akademik" />
+    
+	<!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_duyurular"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/duyurular"
+        android:text="Duyurular" />
+	
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_iletisim"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/iletisim"
+        android:text="Iletisim" />
+
+ 
+
+</iticu.andro.DashboardLayout>

@@ -1,0 +1,34 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" 
+    android:background="@drawable/seffaf">
+
+    <Button
+        android:id="@+id/iticu"
+        android:layout_width="178dp"
+        android:layout_height="94dp"
+        android:background="@drawable/iticu23" />
+
+<Button
+    android:id="@+id/twitter"
+    android:layout_width="176dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/twitter" />
+
+<Button
+    android:id="@+id/facebook"
+    android:layout_width="185dp"
+    android:layout_height="109dp"
+    android:layout_weight="1.08"
+    android:background="@drawable/facebook" />
+
+    <Button
+        android:id="@+id/youtube"
+        android:layout_width="191dp"
+        android:layout_height="153dp"
+        android:background="@drawable/youtube" />
+
+</LinearLayout>

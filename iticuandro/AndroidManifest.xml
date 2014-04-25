@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="iticu.andro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/iticu3"
+        android:label="@string/app_name" >
+        <activity
+            android:name="IticuandroActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="iticu.andro.Akademik" >
+        </activity>
+        <activity android:name="iticu.andro.Universite" >
+        </activity>
+        <activity android:name="iticu.andro.Duyurular" >
+        </activity>
+        <activity android:name="iticu.andro.Akademikpdf" >
+        </activity>
+        <activity android:name="iticu.andro.Iletisim" >
+        </activity>
+        <activity android:name="iticu.andro.Akademikpdf2" >
+        </activity>
+        <activity android:name="iticu.andro.Akademikpdf3" >
+        </activity>
+        <activity android:name="iticu.andro.Akademiktak" >
+        </activity>
+        <activity android:name="iticu.andro.Buyukresim" >
+        </activity>
+        <activity android:name="iticu.andro.DashboardLayout" >
+        </activity>
+        <activity android:name="iticu.andro.Sosyalarena" >
+        </activity>
+        <activity android:name="iticu.andro.Youtube" >
+        </activity>
+        <activity android:name="iticu.andro.Dersprog" >
+        </activity>
+        <activity android:name="iticu.andro.Dersprog2" >
+        </activity>
+        <activity android:name="iticu.andro.Dersprog3" >
+        </activity>
+        <activity android:name="iticu.andro.Dersprog4" >
+        </activity>
+        <activity android:name="iticu.andro.Dersprogrami" >
+        </activity>
+        <activity android:name="iticu.andro.Enstituler" >
+        </activity>
+        <activity android:name="iticu.andro.Fakulteler" >
+        </activity>
+        <activity android:name="iticu.andro.Hazirlik" >
+        </activity>
+        <activity android:name="iticu.andro.Myo" >
+        </activity>
+        <activity android:name="iticu.andro.Pdfdenemesi" >
+        </activity>
+        <activity android:name="iticu.andro.Rehber" >
+        </activity>
+        <activity android:name="iticu.andro.Telefonrehber" >
+        </activity>
+        <activity android:name="iticu.andro.telefonrehberi" >
+        </activity>
+        <activity android:name="iticu.andro.TestHttpGet" >
+        </activity>
+        <activity android:name="iticu.andro.Facebook" >
+        </activity>
+        <activity android:name="iticu.andro.Twitter" >
+        </activity>
+        <activity android:name="iticu.andro.iticuweb" >
+        </activity>
+    </application>
+
+</manifest>

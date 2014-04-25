@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="@drawable/seffaf"
+  >
+    	<include layout="@layout/actionbar_layout"/>
+     <Button android:id="@+id/bt1" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:layout_marginRight="10px"
+            android:text="Lisans ve Önlisans 2011-2012 Öğretim Yılı Akademik Takvimi"
+            android:layout_marginTop="15px" 
+             />
+      <Button android:id="@+id/bt2" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:layout_marginRight="10px"
+            android:text="Lisans ve Önlisans İngilizce Hazırlık Sınıfları 2010-2011 Öğretim Yılı Akademik Takvimi"
+           android:layout_marginTop="30px"  />
+       <Button android:id="@+id/bt3" android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" android:layout_marginRight="10px"
+            android:text="2011–2012 ÖĞRETİM YILI LİSANSÜSTÜ AKADEMİK TAKVİMİ"
+             android:layout_marginTop="30px" 
+             />
+     
+     </LinearLayout>

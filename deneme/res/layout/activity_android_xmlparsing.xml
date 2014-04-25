@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+	<LinearLayout 
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<Button android:text="Fakulteleri Bilgileri" 
+		    android:id="@+id/button1"
+			android:layout_width="fill_parent"
+			 android:layout_height="wrap_content" 
+			 android:layout_weight="1"></Button>
+		
+		<Button android:text="Listeyi Temizle" 
+		    android:id="@+id/button2"
+			android:layout_width="fill_parent"
+			 android:layout_height="wrap_content" 
+			 android:layout_weight="1"></Button>
+		
+		<Button android:text="Kapat"
+		     android:id="@+id/button3"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content" 
+			android:layout_weight="1"></Button>
+		
+	</LinearLayout>
+		<ListView android:id="@+id/listView2" 
+	    android:layout_height="fill_parent"
+		android:layout_width="fill_parent"></ListView>
+<GridView  
+    android:id="@+id/listView1"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:columnWidth="120dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="10dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+></GridView>
+	    
+
+</LinearLayout>

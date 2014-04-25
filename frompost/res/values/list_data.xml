@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Sehirler">
+        <item>Ankara</item>
+        <item>İstanbul</item>
+        <item>Kocaeli</item>
+        <item>Trabzon</item>
+        <item>Erzincan</item>
+        <item>Bursa</item>
+        <item>İzmir</item>
+        <item>Eskişehir</item>
+        <item>Bilecik</item>
+        <item>Yalova</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HotPot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_uyegiris">Uyegiris</string>
+    <string name="title_activity_main_activity_uye">MainActivityUye</string>
+    <string name="title_activity_main_activity_satici">MainActivitySatici</string>
+    <string name="uyetip">Üye tipinizi Seçin</string>
+    
+      <string-array name="UyeTipi">
+        <item>Müşteri</item>
+        <item>Satıcı</item>
+       
+    </string-array>
+
+</resources>

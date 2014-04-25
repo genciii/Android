@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <item android:id="@+id/MEK"
+          android:icon="@drawable/phone"
+          android:title="Merkez Eminonu Kampusu" />
+ 
+    <item android:id="@+id/UK"
+          android:icon="@drawable/phone"
+          android:title="Uskudar Kampusu" />
+ 
+    <item android:id="@+id/KK"
+          android:icon="@drawable/phone"
+          android:title="Kucukyali Kampusu" />
+ 
+    <item android:id="@+id/MYO"
+          android:icon="@drawable/phone"
+          android:title="Meslek Yuksek Okulu" />
+ 
+    <item android:id="@+id/GPS"
+          android:icon="@drawable/sate"
+          android:title="GPS" />  
+          
+      <item android:id="@+id/TR"
+          android:icon="@drawable/contact"
+          android:title="Telefon Rehberi" />
+ 
+   
+</menu>
