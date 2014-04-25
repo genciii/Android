@@ -1,0 +1,44 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:fillViewport="true"
+android:scrollbars="none" >
+
+<LinearLayout android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+  
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+       android:background="#0384e6" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/game5" 
+        android:layout_margin="50dp"/>
+    
+    <EditText
+    android:id="@+id/phone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/imageView1"
+    android:hint="@string/phone_hint"
+    android:inputType="number" />
+
+
+
+
+
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>

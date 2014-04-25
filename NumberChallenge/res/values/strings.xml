@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Logic Challenge</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Splash Screen!</string>
+    <string name="hello_world2">Options Activity!</string>
+    <string name="hello_world3">Answer is correct!</string>
+    <string name="hello_world4">You are going to main menu, are you sure?</string>
+    <string name="hello_world5">Are you sure you want to EXIT?</string>
+    <string name="title_activity_main">Logic Challenge</string>
+    <string name="Start_The_Game"> PLAY  </string>
+    <string name="Options"> PUZZLES </string>
+    <string name="Facebook"></string>
+    <string name="title_activity_game">Logic Challenge</string>
+    <string name="title_activity_options"></string>
+    <string name="phone_hint">Enter your answer here</string>
+    <string name="title_activity_next_level">NextLevel</string>
+    <string name="title_activity_game_activity2">Logic Challenge</string>
+    <string name="Next_Game">Next Level!</string>
+    <string name="title_activity_sure">Sure</string>
+    <string name="Yes"></string>
+    <string name="No"></string>
+    <string name="title_activity_sure2">Sure2</string>
+
+</resources>

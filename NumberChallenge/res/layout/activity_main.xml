@@ -1,0 +1,66 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:fillViewport="true"
+android:scrollbars="none" >
+
+<LinearLayout android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#0384e6" 
+     >
+             <ImageView 
+               android:id="@+id/background32"
+        android:background="@drawable/grafity23"
+           android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+            
+            />
+        
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/background32"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mediaplay"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/Start_The_Game" />
+        
+     
+
+        <Button
+            android:id="@+id/buttonOptions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_below="@+id/buttonStart"
+            android:layout_marginTop="5dp"
+            android:text="@string/Options"
+            android:background="@drawable/puzzles" />
+        
+        <Button
+            android:id="@+id/buttonFaceBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/buttonOptions"
+            android:layout_marginTop="5dp"
+            android:text="@string/Facebook" 
+            android:background="@drawable/facebook"/>
+
+
+    </RelativeLayout>
+    
+</LinearLayout>
+</ScrollView>

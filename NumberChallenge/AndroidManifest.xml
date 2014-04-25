@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.numberchallenge"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/brain"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.numberchallenge.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.GameActivity"
+            android:label="@string/title_activity_game" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.Options"
+            android:label="@string/title_activity_options" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.NextLevel"
+            android:label="@string/title_activity_next_level"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.GameActivity2"
+            android:label="@string/title_activity_game_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.GameActivity3"
+            android:label="@string/title_activity_game_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.GameActivity4"
+            android:label="@string/title_activity_game_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.GameActivity5"
+            android:label="@string/title_activity_game_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.GameActivity6"
+            android:label="@string/title_activity_game_activity2" >
+        </activity>
+           <activity
+            android:name="com.example.numberchallenge.GameActivity7"
+            android:label="@string/title_activity_game_activity2" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.Sure"
+            android:label="@string/title_activity_sure"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.numberchallenge.Sure2"
+            android:label="@string/title_activity_sure2" >
+        </activity>
+            <activity
+            android:name="com.example.numberchallenge.NextLevel2"
+            android:label="@string/title_activity_next_level"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+            <activity
+            android:name="com.example.numberchallenge.NextLevel3"
+            android:label="@string/title_activity_next_level"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+            <activity
+            android:name="com.example.numberchallenge.NextLevel4"
+            android:label="@string/title_activity_next_level"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+           <activity
+            android:name="com.example.numberchallenge.NextLevel6"
+            android:label="@string/title_activity_next_level"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+            <activity
+            android:name="com.example.numberchallenge.NextLevel5"
+            android:label="@string/title_activity_next_level"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+    </application>
+
+</manifest>

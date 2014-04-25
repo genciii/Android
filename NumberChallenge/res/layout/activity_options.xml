@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+ 
+    <com.antiyes.example.Views.SquareButton
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="15dip"
+        android:layout_weight="1"
+        android:text="Button 2" />
+ 
+    <com.antiyes.example.Views.SquareButton
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_margin="15dip"
+        android:layout_weight="1"
+        android:text="Button 1" />
+ 
+</LinearLayout>

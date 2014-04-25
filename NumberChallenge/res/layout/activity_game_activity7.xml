@@ -1,0 +1,117 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:fillViewport="true"
+android:scrollbars="none" >
+
+<LinearLayout android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+  
+
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+       android:background="#0384e6" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/resimlogic" 
+        android:layout_margin="5dp"/>
+    
+          <Button
+              android:id="@+id/ans1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignRight="@+id/imageView1"
+              android:layout_below="@+id/imageView1"
+              android:layout_marginTop="5dp"
+              android:layout_marginRight="50dp"
+              android:background="@drawable/resimlogicans"
+              android:text="@string/Yes" />
+
+                 <Button
+              android:id="@+id/ans2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignRight="@+id/imageView1"
+                 android:layout_marginRight="50dp"
+              android:layout_below="@+id/ans1"
+              android:layout_marginTop="5dp"
+              android:background="@drawable/resimlogicans2"
+              android:text="@string/Yes" />
+                   <Button
+              android:id="@+id/ans3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+                 android:layout_marginRight="50dp"
+              android:layout_alignRight="@+id/imageView1"
+              android:layout_below="@+id/ans2"
+              android:layout_marginTop="5dp"
+              android:background="@drawable/resimlogicans3"
+              android:text="@string/Yes" />
+                 <Button
+              android:id="@+id/ans4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+                 android:layout_marginRight="50dp"
+              android:layout_alignRight="@+id/imageView1"
+              android:layout_below="@+id/ans3"
+              android:layout_marginTop="5dp"
+              android:background="@drawable/resimlogicans4"
+              android:text="@string/Yes" />
+            <Button
+              android:id="@+id/ans5"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+                 android:layout_marginLeft="50dp"
+              android:layout_alignLeft="@+id/imageView1"
+              android:layout_below="@+id/imageView1"
+              android:layout_marginTop="5dp"
+              android:background="@drawable/resimlogicans5"
+              android:text="@string/Yes" />
+                   <Button
+              android:id="@+id/ans6"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+               android:layout_marginLeft="50dp"
+              android:layout_alignLeft="@+id/imageView1"
+              android:layout_below="@+id/ans5"
+              android:layout_marginTop="5dp"
+              android:background="@drawable/resimlogicans5"
+              android:text="@string/Yes" />
+                     <Button
+              android:id="@+id/ans7"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+               android:layout_marginLeft="50dp"
+              android:layout_alignLeft="@+id/imageView1"
+              android:layout_below="@+id/ans6"
+              android:layout_marginTop="5dp"
+              android:background="@drawable/resimlogicans7"
+              android:text="@string/Yes" />
+               <Button
+              android:id="@+id/ans8"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+               android:layout_marginLeft="50dp"
+              android:layout_alignLeft="@+id/imageView1"
+              android:layout_below="@+id/ans7"
+              android:layout_marginTop="5dp"
+              android:background="@drawable/resimlogicans8"
+              android:text="@string/Yes" />
+            
+
+
+
+</RelativeLayout>
+</LinearLayout>
+</ScrollView>
