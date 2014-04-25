@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eBook</string>
+    <string name="hello_world"></string>
+    <string name="hello_world2">Parlaklığı ayarlamak için barı oynatın: </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_file_search">File_search</string>
+    <string name="title_activity_file_search2">File_search2</string>
+    <string name="title_activity_test_activty">TestActivty</string>
+    <string name="title_activity_asynctask">Asynctask</string>
+    <string name="title_activity_ayarlar">Ayarlar</string>
+
+</resources>
