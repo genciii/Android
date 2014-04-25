@@ -39,6 +39,22 @@
             android:name="com.example.ebook.File_search2"
             android:label="@string/title_activity_file_search2" >
         </activity>
+        <activity
+            android:name="com.example.ebook.TestActivty"
+            android:label="@string/title_activity_test_activty" >
+        </activity>
+        <activity
+            android:name="com.example.ebook.ListOk"
+            android:label="@string/title_activity_test_activty" >
+        </activity>
+           <activity
+            android:name="com.example.ebook.ListOk2"
+            android:label="@string/title_activity_test_activty" >
+        </activity>
+        <activity
+            android:name="com.example.ebook.Asynctask"
+            android:label="@string/title_activity_asynctask" >
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.WRITE_SETTINGS" >

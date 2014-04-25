@@ -55,7 +55,7 @@ public class MainActivity extends Activity implements OnClickListener {
 		
 
 		if (Aram.isPressed()) {
-			Intent i = new Intent(MainActivity.this, File_search2.class);
+			Intent i = new Intent(MainActivity.this, TestActivty.class);
 			MainActivity.this.startActivity(i);
 
 		}
